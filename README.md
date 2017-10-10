@@ -2,10 +2,8 @@
 
 Talk by Cecy Correa
 
-![](https://dl.dropboxusercontent.com/u/32684641/meme-hub/level-up.gif)
-
 * Presented at Refresh Austin, October 2017.
-* Presented at Keep Ruby Weird 2017
+* Presenting at Keep Ruby Weird 2017
 
 ### Contents
 
