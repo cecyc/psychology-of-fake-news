@@ -9,11 +9,11 @@ Talk by Cecy Correa
 
 Understanding the Psychology of Fake News
 
-“You are entitled to your own opinion,
+> “You are entitled to your own opinion,
 but you are not entitled to your own facts.”
 — Daniel Patrick Moynihan
 
-“...the Internet was done so well that most people think of it as a natural resource like the Pacific Ocean, rather than something that was man-made. When was the last time a technology with a scale like that was so error-free?”
+> “...the Internet was done so well that most people think of it as a natural resource like the Pacific Ocean, rather than something that was man-made. When was the last time a technology with a scale like that was so error-free?”
 — Alan Kay
 
 The tech that powers fake news:
