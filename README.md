@@ -1,120 +1,110 @@
-![](https://thawing-falls-79026.herokuapp.com/images/thanks-1.svg)
+## Understanding the Psychology of Fake News
 
-## Level up your GIF Game 👍
+Talk by Cecy Correa
 
 ![](https://dl.dropboxusercontent.com/u/32684641/meme-hub/level-up.gif)
 
-Presented at #CSSDevConf 2016.
+* Presented at Refresh Austin, October 2017.
+* Presented at Keep Ruby Weird 2017
 
 ### Contents
 
-#### How do you pronounce GIF?
+Understanding the Psychology of Fake News
 
-[JIF is the Format, GIF is the culture](https://medium.com/message/jif-is-the-format-gif-is-the-culture-af8673796c44)
+“You are entitled to your own opinion,
+but you are not entitled to your own facts.”
+— Daniel Patrick Moynihan
 
-#### History of GIFs
+“...the Internet was done so well that most people think of it as a natural resource like the Pacific Ocean, rather than something that was man-made. When was the last time a technology with a scale like that was so error-free?”
+— Alan Kay
 
-[Arrival of a Train](https://www.youtube.com/watch?v=1dgLEDdFddk), by the Lumière Brothers
+The tech that powers fake news:
 
-[Early Kinetoscopes](https://www.youtube.com/watch?v=686Y7bZYavA), by Edison
+* Unfurl url from Facebook
+* Selective feeds on Facebook or Twitter
+* Blocking
+* Creates an echo chamber
+* There is a whole economy based on fake news: it’s easier than ever to set-up a fake news site:
+ * https://www.buzzfeed.com/craigsilverman/how-the-hyperpartisan-sausage-is-made
+ * http://www.npr.org/sections/alltechconsidered/2016/11/23/503146770/npr-finds-the-head-of-a-covert-fake-news-operation-in-the-suburbs 
+* There are even fake news generators: http://breakyourownnews.com/ 
+* Biases / slants are also reflected based on publications
 
-[Sprinkler Sprinkled](https://www.youtube.com/watch?v=IooPPi1YzkM), by the Lumière Brothers
+But to say it’s “the internet’s fault” is not entirely accurate
 
-#### What makes a good GIF?
+Study: http://www.cjr.org/analysis/breitbart-media-trump-harvard-study.php 
 
-> A good GIF is a simple concept
+Pull quotes:
 
-#### What makes a great GIF?
+“While concerns about political and media polarization online are longstanding, our study suggests that polarization was asymmetric. Pro-Clinton audiences were highly attentive to traditional media outlets [...] but pro-Trump audiences paid the majority of their attention to polarized outlets”
 
-> A great GIF provides an unexpected element
+“Over the course of the election, this turned the right-wing media system into an internally coherent, relatively insulated knowledge community, reinforcing the shared worldview of readers and shielding them from journalism that challenged it”
 
-#### GIFs in the workplace
+“Our analysis challenges a simple narrative that the internet as a technology is what fragments public discourse and polarizes (sic) opinions, by allowing us to inhabit filter bubbles or just read “the daily me.” If technology were the most important driver towards a “post-truth” world, we would expect to see symmetric patterns on the left and the right.”
 
-A few simple rules for safe workplace GIFs
+So is it tech’s fault?
 
-1. If you wouldn't share it with HR, it doesn't belong in chat
-2. Does it enhance the interaction?
-3. Do not use `/giphy` lightly
+* Yes and no
+* Let’s start with the no — no, it’s not tech’s fault because
+ * Fake news have always been around
+ * We are “wired” to believe fake news (more on this later!)
+* Yes because our tools facilitate this cycle more than ever
 
-#### Common tools
+Fake news through history: Yellow journalism (est. 1890s)
 
-**GIPHY lesser known commands**
+How are we wired to think this way? — The psychology of fake news:
 
-Returns #1 rated result for the query
+* System 1 / System 2 thinking (Thinking, Fast and Slow, Daniel Kahneman)
+ * System 1 thinking: fast, automatic, intuitive (beliefs, learned behavior such as riding a bike)
+ * System 2 thinking: analytical / reason
+ * It is harder to change beliefs because they are part of our System 1 thinking. It is as hard to change a belief as it is hard to unlearn how to ride a bike or drive a car.
+* The Knowledge Illusion, Philip Fernbach and Steven Sloman
+ * “As people invented new tools for new ways of living, they simultaneously created new realms of ignorance; if everyone had insisted on, say, mastering the principles of metalworking before picking up a knife, the Bronze Age wouldn’t have amounted to much. When it comes to new technologies, incomplete understanding is empowering.”
+ * “As a rule, strong feelings about issues do not emerge from deep understanding”... but it deepens as more people believe this together
+ * When asked to elaborate on views, most people realize how shallow their understanding is, and less vehemently believe what they believe.”
+* Information Diet, Clay Johnson
+ * Consuming information that we agree with is like eating junk food, it tastes delicious to our “brain” — appeals to System 1 thinking.
+ * Consuming information that is challenging is like eating healthy food you don’t like — it’s good for you, but it is not satisfying to the brain in the way fake / sensationalistic information is — involves System 2 thinking, which is harder for us to do.
 
-```
-/giphy #1 [search term]
-```
+Powerful research groups understand this psychology:
 
-Returns a yes or no answer based on a question
+Article: https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage 
 
-```
-/giphy #magic8ball [question]
-```
+“A Facebook ‘like’, he said, was their most ‘potent weapon’. ‘Because using artificial intelligence, as we did, tells you all sorts of things about that individual and how to convince them with what sort of advert. And you knew there would also be other people in their network who liked what they liked, so you could spread. And then you follow them. The computer never stops learning and it never stops monitoring.’”
 
-Returns a random GIF with your weather forecast
+Understanding the psychology behind behavior is key.
 
-```
-/giphy #weather [city or zip code]
-```
+Okay, so how do you ‘fight’ fake news or misinformation
 
-**GIF Keyboard integration**
+Human solutions:
 
-GIF Keyboard on Slack is an alternate GIF integration that gives you more flexibility.
+* Teaching tech and media literacy to the masses (easier said than done)
+* Careful, as facts may actually hurt you: http://www.businessinsider.com/sociology-alternative-facts-2017-2 
+* Daryl Davis, How to argue: http://loveandradio.org/2017/02/how-to-argue 
+* Talking more about psychology and behavior as it relates to the technology we build
 
-Returns one result:
+Tech:
 
-```
-/gif [query]
-```
+* Perspective API http://www.perspectiveapi.com/
+* “Outside the Bubble” feature on BuzzFeed
+* Blue Feed / Red Feed on WSJ http://graphics.wsj.com/blue-feed-red-feed/ 
+* Facebook algorithm and fact checking of fake news
+http://adage.com/article/digital/facebook-automates-effort-flag-fake-news-fact-checking/310016 
+* Facebook finally analysing propaganda claims
+https://newsroom.fb.com/news/2017/09/information-operations-update/ 
+* Knight Foundation projects to tackle fake news
+https://www.knightfoundation.org/articles/20-projects-will-address-the-spread-of-misinformation-through-knight-prototype-fund 
 
-Returns several results to choose from before posting. The results are only visible to you until you choose which one to share.
+But can tech companies care about this? What does it look like?
 
-```
-/gifs [query]
-```
+Companies that care about both profit and purpose:
+https://medium.com/@sexandstartups/zebrasfix-c467e55f9d96#.b7ewtdg91 
 
-#### Custom workflows
+For the future:
 
-**Dropbox + Alfred**
+In a recent study by Google on Generation Z, they found this generation wants tech makers to “...live up to the standard GenZ has set [...] and continue to inform, inspire, and create products and marketing that facilitate the world which they want to live.”
 
-1. Host your GIFs in Dropbox Public folder
-2. Use custom Alfred workflow to search in folder + bash script to generate sharable Dropbox link.
+Source: http://storage.googleapis.com/think/docs/its-lit.pdf 
 
-[Click here for tutorial.](http://destroytoday.com/writings/gif-workflow/)
+I think this is important — let’s build tools that inspire and facilitate, not divide.
 
-**Github + CLI**
-
-Free option!
-
-1. Host your GIFs on Github
-2. Use shareable Github links for GIFs
-3. Set-up aliases and bash script to search and generate sharable URLs
-
-Alias to cd into GIF repo, git add, git commit and git push
-
-```
-alias gif-add="cd ~/absolute/path/to/gif-repo && git add . && git commit -m 'adding GIFs' && git push origin master"
-```
-
-Alias to search GIF repo from any location
-
-```
-alias gif-search="~/absolute/path/to/gif-repo ls | grep"
-
-$ gif-search query
-```
-
-Bash script to generate sharable URL
-
-```
-#!/bin/bash
-base_url="https://raw.githubusercontent.com/USERNAME/repo/branch/"
-base_url+=$1
-echo $base_url
-```
-
-To run the script as an executable from anywhere:
-
-1. Move file to /usr/local/bin
-2. Add privileges `chmod +x filename`
